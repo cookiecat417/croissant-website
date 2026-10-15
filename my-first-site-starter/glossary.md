@@ -16,3 +16,8 @@ Add each day's new words here, in your own words.
 - **Selector**: The element selected to be changed or styled (e.g header, ul, a, .logo).
 - **Property**: What you want to change or style in your selector (color, background-color, padding, font-size).
 - **Value**: The new setting you give to your selector. Works hand-in-hand with your property (white, #f2c480, 24px).
+
+## Week 1, Wednesday (JS)
+- **Variable**: A name that holds a value or, in other words, a jar that holds a value (siteName).
+- **Value (JS)**: A piece of infomration like text (Strings), a number (Integers/Floats), and true or false statements (Booleans).
+- **String**: Any text inside of quotation marks ("The Littlest Loafy").

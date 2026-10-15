@@ -1,5 +1,5 @@
 // TODO 1 (Wednesday): make a variable called siteName on the line below.
-
+const siteName = "The Littlest Loafy";
 
 // TODO 2 (Thursday): make a variable called visitCount holding a number.
 
