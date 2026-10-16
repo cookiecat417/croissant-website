@@ -19,5 +19,10 @@ Add each day's new words here, in your own words.
 
 ## Week 1, Wednesday (JS)
 - **Variable**: A name that holds a value or, in other words, a jar that holds a value (siteName).
-- **Value (JS)**: A piece of infomration like text (Strings), a number (Integers/Floats), and true or false statements (Booleans).
+- **Value (JS)**: A piece of infomration like text (Strings), a number (Number/Integers/Floats), and true or false statements (Booleans).
 - **String**: Any text inside of quotation marks ("The Littlest Loafy").
+
+## Week 1, Thursday (JS)
+- **Let**: A variable's value that can be adjusted later on. Its place is always before a variable (let visitCount = 1)
+- **Number**: Numeric value. Can also be written without quotes (let visitCount = 1, visitCount = 3)
+- **Boolean**: True or False statement. Can also be written without quotes (showNewLabel = true;)
