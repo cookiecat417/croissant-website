@@ -8,7 +8,7 @@ let visitCount = 1;
 visitCount = 3;
 
 // TODO 4 (Thursday): make a variable called showNewLabel holding true or false.
-showNewLabel = true;
+let showNewLabel = true;
 
 // Don't change the lines below. They put your variables on the page.
 // You'll learn how they work in Week 2 (Hero section).

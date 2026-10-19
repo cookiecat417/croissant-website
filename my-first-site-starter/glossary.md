@@ -26,3 +26,8 @@ Add each day's new words here, in your own words.
 - **Let**: A variable's value that can be adjusted later on. Its place is always before a variable (let visitCount = 1)
 - **Number**: Numeric value. Can also be written without quotes (let visitCount = 1, visitCount = 3)
 - **Boolean**: True or False statement. Can also be written without quotes (showNewLabel = true;)
+
+## Week 2, Monday (HTML)
+- **Section**: An element that groups things inside of it and into one part (e.g <section> and </section>).
+- **Heading**: The title of a page. There are six in total, scaling from the most important headings to the least important (e.g h1, h2, h3, h4, h5, and h6).
+- **Button**: An element that makes a clickable button (e.g <button>Click Me!</button>)
