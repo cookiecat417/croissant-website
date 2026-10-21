@@ -31,3 +31,8 @@ Add each day's new words here, in your own words.
 - **Section**: An element that groups things inside of it and into one part (e.g <section> and </section>).
 - **Heading**: The title of a page. There are six in total, scaling from the most important headings to the least important (e.g h1, h2, h3, h4, h5, and h6).
 - **Button**: An element that makes a clickable button (e.g <button>Click Me!</button>)
+
+## Week 2, Tuesday (CSS)
+- **Padding**: The space inside, or the packing peanuts, of a box (Exists between the content inside of a box and the border).
+- **Border**: The edge, or the walls, of a box (The line of the box).
+- **Margin**: The space outside of a box (The space that exists outside of the border).

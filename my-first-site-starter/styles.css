@@ -18,3 +18,23 @@ ul {
 a {
     color: white;
 }
+
+.hero {
+    background-color: #f2c480;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+button {
+    background-color: #f2c480;
+    color: white;
+    padding: 12px;
+    border: 2px solid white;
+    border-radius: 8px;
+    margin: 16px;
+}
