@@ -15,3 +15,6 @@ let showNewLabel = true;
 document.querySelector(".logo").textContent = siteName;
 document.querySelector(".visits").textContent = "Visits: " + visitCount;
 document.querySelector(".new-label").hidden = !showNewLabel;
+
+document.querySelector("h1").textContent = "Salutations, user! Welcome in!";
+document.querySelector("button").textContent = "Click me!";

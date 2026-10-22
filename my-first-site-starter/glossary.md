@@ -36,3 +36,8 @@ Add each day's new words here, in your own words.
 - **Padding**: The space inside, or the packing peanuts, of a box (Exists between the content inside of a box and the border).
 - **Border**: The edge, or the walls, of a box (The line of the box).
 - **Margin**: The space outside of a box (The space that exists outside of the border).
+
+## Week 2, Wednesday (JS)
+- **DOM**: The copy of a browser's page. This can be affected or changed through Javascript (**document**.querySelector(".logo").textContext = siteName;).
+- **querySelector**: Finds an HTML element that matches a CSS selector (document.**querySelector(".logo")**.textContext = siteName;).
+- **textContent**: Refers to the text inside of an element. This can be affected through Dom manipulation (document.querySelector(".logo").**textContext = siteName;**).
