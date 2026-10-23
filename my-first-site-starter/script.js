@@ -8,7 +8,7 @@ let visitCount = 1;
 visitCount = 3;
 
 // TODO 4 (Thursday): make a variable called showNewLabel holding true or false.
-let showNewLabel = true;
+const showNewLabel = true;
 
 // Don't change the lines below. They put your variables on the page.
 // You'll learn how they work in Week 2 (Hero section).
@@ -21,3 +21,5 @@ document.querySelector("button").textContent = "Click me!";
 
 const heroTitle = document.querySelector("h1"); 
 heroTitle.textContent = `Hey, User! Take a look around ${siteName}!`;
+
+document.querySelector("button").textContent = "Join our fabulous " + visitCount + " visitors today!";
