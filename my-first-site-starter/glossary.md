@@ -41,3 +41,8 @@ Add each day's new words here, in your own words.
 - **DOM**: The copy of a browser's page. This can be affected or changed through Javascript (**document**.querySelector(".logo").textContext = siteName;).
 - **querySelector**: Finds an HTML element that matches a CSS selector (document.**querySelector(".logo")**.textContext = siteName;).
 - **textContent**: Refers to the text inside of an element. This can be affected through Dom manipulation (document.querySelector(".logo").**textContext = siteName;**).
+
+## Week 2, Thursday (JS) 
+- **Template Literals**: Another version of a string that contains backticks and variables (**`Hey, User! Take a look around ${siteName}!`**).
+- **Backtick**: The beginning and ending of a template literal. Acts similarly to quotations (**`**Hey, User! Take a look around ${siteName}!**`**).
+- **Placeholder**: Found inside of a template literal and contains a variable name inside (`Hey, User! Take a look around **${siteName}**!`)

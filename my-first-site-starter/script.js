@@ -18,3 +18,6 @@ document.querySelector(".new-label").hidden = !showNewLabel;
 
 document.querySelector("h1").textContent = "Salutations, user! Welcome in!";
 document.querySelector("button").textContent = "Click me!";
+
+const heroTitle = document.querySelector("h1"); 
+heroTitle.textContent = `Hey, User! Take a look around ${siteName}!`;
