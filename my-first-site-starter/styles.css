@@ -38,3 +38,8 @@ button {
     border-radius: 8px;
     margin: 16px;
 }
+
+#hero-message {
+    font-style: italic;
+    color: white;
+}
