@@ -50,3 +50,8 @@ Add each day's new words here, in your own words.
 ## Week 3, Monday (HTML)
 - **ID**: An attribute that gives one element its own name. While **classes** can contain multiple items inside of it, **ids** only contain one element (**<p id="#hero-message">) .
 - **ID Selector**: A pound or '#' and the name of the element in that ID (**#hero-message**).
+
+## Week 3, Tuesday (CSS)
+- **Pseudo-Class**: A word that comes after a colon. Styles an element in a specific state (**':hover'**).
+- **Hover**: When the mouse is resting over an element.
+- **Cursor**: THe mouse pointer shows a pointing hand (**'cursor: pointer'**).

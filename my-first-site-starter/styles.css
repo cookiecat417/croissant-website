@@ -39,7 +39,20 @@ button {
     margin: 16px;
 }
 
-#hero-message {
+.hero-message {
     font-style: italic;
     color: white;
+}
+
+#hero-button {
+    cursor: pointer;
+}
+
+#hero-button:hover {
+    background-color: #EFD2A8;	
+    color: white;
+}
+
+#hero-button:active {
+    background-color: #DFBB7E;
 }
