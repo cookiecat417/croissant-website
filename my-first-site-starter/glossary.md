@@ -48,10 +48,18 @@ Add each day's new words here, in your own words.
 - **Placeholder**: Found inside of a template literal and contains a variable name inside (`Hey, User! Take a look around **${siteName}**!`).
 
 ## Week 3, Monday (HTML)
-- **ID**: An attribute that gives one element its own name. While **classes** can contain multiple items inside of it, **ids** only contain one element (**<p id="#hero-message">) .
+- **ID**: An attribute that gives one element its own name. While **classes** can contain multiple items inside of it, **ids** only contain one element (**<p id="#hero-message">**) .
 - **ID Selector**: A pound or '#' and the name of the element in that ID (**#hero-message**).
 
 ## Week 3, Tuesday (CSS)
 - **Pseudo-Class**: A word that comes after a colon. Styles an element in a specific state (**':hover'**).
 - **Hover**: When the mouse is resting over an element.
 - **Cursor**: THe mouse pointer shows a pointing hand (**'cursor: pointer'**).
+
+## Week 3, Wednesday (JS)
+- **Function**: A function contains a set of instructions that can be named. These set of instructions can be called (**function openShop()**).
+- **Call**: This is how you get your function to run. To call your function, write the function name followed by parathesis (**openShop()**)
+- **Function Body**: The instructions inside of a function. Contained inside of the curly brakcets, **{ ... }** 
+(function openShop() **{
+    document.querySelector("#shop-sign").textContent = "We're open!"; 
+}**).

@@ -19,6 +19,14 @@ a {
     color: white;
 }
 
+a:hover {
+    color: #7a5727;
+}
+
+a:active {
+    color: #422308;
+}
+
 .hero {
     background-color: #f2c480;
     color: white;
@@ -39,7 +47,7 @@ button {
     margin: 16px;
 }
 
-.hero-message {
+#hero-message {
     font-style: italic;
     color: white;
 }
@@ -49,10 +57,10 @@ button {
 }
 
 #hero-button:hover {
-    background-color: #EFD2A8;	
+    background-color: #7a5727;	
     color: white;
 }
 
 #hero-button:active {
-    background-color: #DFBB7E;
+    background-color: #422308;
 }

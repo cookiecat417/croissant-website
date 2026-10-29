@@ -23,3 +23,13 @@ const heroTitle = document.querySelector("h1");
 heroTitle.textContent = `Hey, User! Take a look around ${siteName}!`;
 
 document.querySelector("button").textContent = "Join our fabulous " + visitCount + " visitors today!";
+
+// function openShop() {
+//     document.querySelector("#shop-sign").textContent = "We're open!";
+// }
+// openShop();
+
+function showMessage() {
+    document.querySelector("#hero-message").textContent = `Thank you for visiting ${siteName}!`;
+}
+showMessage();
