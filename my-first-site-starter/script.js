@@ -15,13 +15,11 @@ const showNewLabel = true;
 document.querySelector(".logo").textContent = siteName;
 document.querySelector(".visits").textContent = "Visits: " + visitCount;
 document.querySelector(".new-label").hidden = !showNewLabel;
-
 document.querySelector("h1").textContent = "Salutations, user! Welcome in!";
 document.querySelector("button").textContent = "Click me!";
 
 const heroTitle = document.querySelector("h1"); 
 heroTitle.textContent = `Hey, User! Take a look around ${siteName}!`;
-heroTitle.addEventListener = ("mouseover", "h1");
 
 document.querySelector("button").textContent = "Join our fabulous " + visitCount + " visitors today!";
 
@@ -32,4 +30,9 @@ function showMessage() {
 const heroButton = document.querySelector("#hero-button");
 heroButton.addEventListener("click", showMessage);
 
+function changeHeadLine() {
+    const newChangeHeadLine = document.querySelector("#hero-title")
+    newChangeHeadLine.textContent = "Like what you see? Join the team!";
+}
 
+ heroTitle.addEventListener("mouseover", changeHeadLine);

@@ -48,7 +48,7 @@ Add each day's new words here, in your own words.
 - **Placeholder**: Found inside of a template literal and contains a variable name inside (`Hey, User! Take a look around **${siteName}**!`).
 
 ## Week 3, Monday (HTML)
-- **ID**: An attribute that gives one element its own name. While **classes** can contain multiple items inside of it, **ids** only contain one element (**<p id="#hero-message">**).
+- **ID**: An attribute that gives one element its own name. While **classes** can contain multiple items inside of it, **ids** only contain one element (**<p id="hero-message">**).
 - **ID Selector**: A pound or '#' and the name of the element in that ID (**#hero-message**).
 
 ## Week 3, Tuesday (CSS)
