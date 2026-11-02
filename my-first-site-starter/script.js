@@ -32,7 +32,9 @@ heroButton.addEventListener("click", showMessage);
 
 function changeHeadLine() {
     const newChangeHeadLine = document.querySelector("#hero-title")
-    newChangeHeadLine.textContent = "Like what you see? Join the team!";
+    newChangeHeadLine.textContent = "Like what you see? Consider joining the team!";
 }
 
  heroTitle.addEventListener("mouseover", changeHeadLine);
+
+//  document.querySelector("#order-button").textContent = "Hi!";
