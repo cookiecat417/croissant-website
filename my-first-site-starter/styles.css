@@ -54,6 +54,7 @@ button {
 
 #hero-button {
     cursor: pointer;
+    transition: all 0.5s;
 }
 
 #hero-button:hover {
@@ -64,4 +65,25 @@ button {
 #hero-button:active {
     background-color: #422308;
 }
+
+#reset-button {
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+#reset-button:hover {
+    background-color: #7a5727;
+    color: white;
+}
+
+
+
+/* #order-button {
+    background: green;
+    transition: background-color 0.5s;
+}
+
+#order-button:hover {
+    background-color: darkgreen;
+} */
 

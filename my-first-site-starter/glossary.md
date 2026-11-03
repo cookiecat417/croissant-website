@@ -68,3 +68,12 @@ Add each day's new words here, in your own words.
 - **Event**: Something that occurs or changes an element on a page (heroButton.addEventListener(**"click"**, showMessage);).
 - **Event Listener**: Waits for a specific event to happen and calls the function linked to it when it happens ().
 - **addEventListener**: This is what is being attached to an element in order for the event ot be carried out (**heroButton.addEventListener("click", showMessage);**).
+
+## Week 4, Monday (HTML) 
+**Today I: added a new button with an ID of "reset-button".**
+
+<!-- NOTE - I probably won't write any of the "Today I:" lines unless there are no words for that day. -->
+
+## Week 4, Tuesday (CSS) 
+- **Transition**: This makes a style happen slowly instead of immediately (**transition: all 0.5s;**).
+- **Duration**: HOw long something takes. In this case, the **0.5s** inside of a transition.
