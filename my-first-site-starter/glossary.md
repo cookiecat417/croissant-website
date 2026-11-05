@@ -76,4 +76,8 @@ Add each day's new words here, in your own words.
 
 ## Week 4, Tuesday (CSS) 
 - **Transition**: This makes a style happen slowly instead of immediately (**transition: all 0.5s;**).
-- **Duration**: HOw long something takes. In this case, the **0.5s** inside of a transition.
+- **Duration**: How long something takes. In this case, the **0.5s** inside of a transition.
+
+## Week 4, Wednesday (JS)
+- **Console**: A hidden panel in the browser (**e.g Google Chrome**) where messages for the builder show up.
+- **Console.log**: Writes a message (Or a variable's value) in the console (**console.log(visitCount);**).

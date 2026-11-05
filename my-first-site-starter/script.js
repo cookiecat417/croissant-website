@@ -24,7 +24,9 @@ heroTitle.textContent = `Hey, User! Take a look around ${siteName}!`;
 document.querySelector("button").textContent = "Join our fabulous " + visitCount + " visitors today!";
 
 function showMessage() {
-     document.querySelector("#hero-message").textContent = `Thank you for visiting ${siteName}!`; 
+    document.querySelector("#hero-message").textContent = `Thank you for visiting ${siteName}!`;
+    console.log("showMessage ran");
+    console.log(visitCount);
 }
 
 const heroButton = document.querySelector("#hero-button");
@@ -33,8 +35,9 @@ heroButton.addEventListener("click", showMessage);
 function changeHeadLine() {
     const newChangeHeadLine = document.querySelector("#hero-title")
     newChangeHeadLine.textContent = "Like what you see? Consider joining the team!";
+    console.log("changeHeadLine ran");
 }
 
  heroTitle.addEventListener("mouseover", changeHeadLine);
 
-//  document.querySelector("#order-button").textContent = "Hi!";
+
