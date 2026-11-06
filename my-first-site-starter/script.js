@@ -23,11 +23,23 @@ heroTitle.textContent = `Hey, User! Take a look around ${siteName}!`;
 
 document.querySelector("button").textContent = "Join our fabulous " + visitCount + " visitors today!";
 
+let clickCount = 0;
+
 function showMessage() {
-    document.querySelector("#hero-message").textContent = `Thank you for visiting ${siteName}!`;
+    document.querySelector("#hero-message").textContent = `You've clicked ${clickCount} times!`;
     console.log("showMessage ran");
-    console.log(visitCount);
+    clickCount = clickCount + 1;
+    console.log(clickCount);
 }
+
+function resetCount() {
+    document.querySelector("#hero-message").textContent = "Count reset!";
+    clickCount = 0;
+    console.log("resetCount ran");
+}
+
+const resetButton = document.querySelector("#reset-button");
+resetButton.addEventListener("click", resetCount);
 
 const heroButton = document.querySelector("#hero-button");
 heroButton.addEventListener("click", showMessage);
@@ -38,6 +50,16 @@ function changeHeadLine() {
     console.log("changeHeadLine ran");
 }
 
- heroTitle.addEventListener("mouseover", changeHeadLine);
+heroTitle.addEventListener("mouseover", changeHeadLine);
 
 
+
+// function sayHi() {
+//     console.log("sayHi ran");
+// }
+// console.log("page loaded");
+
+//  let score = 5;
+//  score = score + 1;
+//  score = score + 1;
+//  console.log(score);

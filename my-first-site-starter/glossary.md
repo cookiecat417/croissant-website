@@ -81,3 +81,7 @@ Add each day's new words here, in your own words.
 ## Week 4, Wednesday (JS)
 - **Console**: A hidden panel in the browser (**e.g Google Chrome**) where messages for the builder show up.
 - **Console.log**: Writes a message (Or a variable's value) in the console (**console.log(visitCount);**).
+
+## Week 4, Thursday (JS)
+**Today, I transformed my hero button into a counter and my reset button to wipe and start back at 0**. 
+- **Counter**: A variable that goes up by 1 each time something happpens.
