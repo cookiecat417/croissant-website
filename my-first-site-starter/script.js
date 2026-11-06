@@ -24,18 +24,20 @@ heroTitle.textContent = `Hey, User! Take a look around ${siteName}!`;
 document.querySelector("button").textContent = "Join our fabulous " + visitCount + " visitors today!";
 
 let clickCount = 0;
+let newResetCount = 0;
 
 function showMessage() {
+    clickCount = clickCount + 1;
     document.querySelector("#hero-message").textContent = `You've clicked ${clickCount} times!`;
     console.log("showMessage ran");
-    clickCount = clickCount + 1;
     console.log(clickCount);
 }
 
 function resetCount() {
     document.querySelector("#hero-message").textContent = "Count reset!";
     clickCount = 0;
-    console.log("resetCount ran");
+    newResetCount = newResetCount + 1;
+    console.log(`resetCount ran ${newResetCount} times!`);
 }
 
 const resetButton = document.querySelector("#reset-button");
