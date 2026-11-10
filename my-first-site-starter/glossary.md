@@ -85,3 +85,8 @@ Add each day's new words here, in your own words.
 ## Week 4, Thursday (JS)
 **Today, I transformed my hero button into a counter and my reset button to wipe and start back at 0**. 
 - **Counter**: A variable that goes up by 1 each time something happpens.
+
+## Week 5, Monday (HTML + JS)
+**Today, I added a new id titled #menu-button and had a troubling experience with troubleshooting both the menu and hero buttons. I did briefly use ChatGPT to try and regroup my thoughts and now have a better understanding of my button id experience.**
+- **Toggle**: One control that switches something between two states, like open and closed.
+- **Hamburger Icon**: =, three lines that mean "menu" (**"= Menu"**).

@@ -16,12 +16,12 @@ document.querySelector(".logo").textContent = siteName;
 document.querySelector(".visits").textContent = "Visits: " + visitCount;
 document.querySelector(".new-label").hidden = !showNewLabel;
 document.querySelector("h1").textContent = "Salutations, user! Welcome in!";
-document.querySelector("button").textContent = "Click me!";
+document.querySelector("#hero-button").textContent = "Click me!";
 
 const heroTitle = document.querySelector("h1"); 
 heroTitle.textContent = `Hey, User! Take a look around ${siteName}!`;
 
-document.querySelector("button").textContent = "Join our fabulous " + visitCount + " visitors today!";
+// document.querySelector("button").textContent = "Join our fabulous " + visitCount + " visitors today!";
 
 let clickCount = 0;
 let newResetCount = 0;
