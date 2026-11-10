@@ -12,6 +12,7 @@ header {
 #menu-button {
     cursor: pointer;
     transition: all 0.5s;
+    background-color: #996515;
 }
 
 #menu-button:hover {
@@ -86,7 +87,13 @@ button {
     color: white;
 }
 
+#main-nav {
+    display: none;
+}
 
+#main-nav.open {
+    display: block;
+}
 
 /* #order-button {
     background: green;

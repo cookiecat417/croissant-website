@@ -90,3 +90,7 @@ Add each day's new words here, in your own words.
 **Today, I added a new id titled #menu-button and had a troubling experience with troubleshooting both the menu and hero buttons. I did briefly use ChatGPT to try and regroup my thoughts and now have a better understanding of my button id experience.**
 - **Toggle**: One control that switches something between two states, like open and closed.
 - **Hamburger Icon**: =, three lines that mean "menu" (**"= Menu"**).
+
+## Week 5, Tuesday (CSS + HTML)
+- **Display**: Decides if and how an element shows; `none` hides it entirely (**Display: none;**).
+- **Combined Selector**: An id and a class combined together with no space (**`#main-nav.open`;**); it matches only an element that has both.
