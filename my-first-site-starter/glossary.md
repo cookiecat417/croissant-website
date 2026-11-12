@@ -94,3 +94,8 @@ Add each day's new words here, in your own words.
 ## Week 5, Tuesday (CSS + HTML)
 - **Display**: Decides if and how an element shows; `none` hides it entirely (**Display: none;**).
 - **Combined Selector**: An id and a class combined together with no space (**`#main-nav.open`;**); it matches only an element that has both.
+
+## Week 5, Wednesday (JS + Minor HTML)
+**Today, I used JavaScript to open my menu. It took a lot longer than I expected because I realized I left `class="open"` in my nav tag instead of removing it on Monday.**
+- **classList**: The list of classes an element has right now; JavaScript can change it.
+- **classList.add**: Puts a class on an element, like: **`menu.classList.add("open")`**. Do not add (.).

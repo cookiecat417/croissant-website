@@ -33,18 +33,28 @@ function showMessage() {
     console.log(clickCount);
 }
 
+function openMenu() {
+    const openMenu = document.querySelector("#main-nav");
+    openMenu.classList.add("open");
+}
+
 function resetCount() {
     document.querySelector("#hero-message").textContent = "Count reset!";
     clickCount = 0;
     newResetCount = newResetCount + 1;
     console.log(`resetCount ran ${newResetCount} times!`);
+
+    menuButton.classList.remove("open");
 }
 
 const resetButton = document.querySelector("#reset-button");
 resetButton.addEventListener("click", resetCount);
 
 const heroButton = document.querySelector("#hero-button");
+const menuButton = document.querySelector("#menu-button");
+
 heroButton.addEventListener("click", showMessage);
+menuButton.addEventListener("click", openMenu);
 
 function changeHeadLine() {
     const newChangeHeadLine = document.querySelector("#hero-title")
@@ -53,15 +63,3 @@ function changeHeadLine() {
 }
 
 heroTitle.addEventListener("mouseover", changeHeadLine);
-
-
-
-// function sayHi() {
-//     console.log("sayHi ran");
-// }
-// console.log("page loaded");
-
-//  let score = 5;
-//  score = score + 1;
-//  score = score + 1;
-//  console.log(score);

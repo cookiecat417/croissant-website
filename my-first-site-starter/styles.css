@@ -95,12 +95,6 @@ button {
     display: block;
 }
 
-/* #order-button {
-    background: green;
-    transition: background-color 0.5s;
+#promo.highlight {
+    color: red;
 }
-
-#order-button:hover {
-    background-color: darkgreen;
-} */
-
