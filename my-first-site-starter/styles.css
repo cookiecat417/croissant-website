@@ -94,7 +94,3 @@ button {
 #main-nav.open {
     display: block;
 }
-
-#promo.highlight {
-    color: red;
-}

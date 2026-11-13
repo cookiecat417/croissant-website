@@ -33,18 +33,17 @@ function showMessage() {
     console.log(clickCount);
 }
 
-function openMenu() {
+function toggleMenu() {
     const openMenu = document.querySelector("#main-nav");
-    openMenu.classList.add("open");
+    openMenu.classList.toggle("open");
 }
 
 function resetCount() {
     document.querySelector("#hero-message").textContent = "Count reset!";
     clickCount = 0;
     newResetCount = newResetCount + 1;
+    document.querySelector("#main-nav").classList.remove("open");
     console.log(`resetCount ran ${newResetCount} times!`);
-
-    menuButton.classList.remove("open");
 }
 
 const resetButton = document.querySelector("#reset-button");
@@ -54,7 +53,7 @@ const heroButton = document.querySelector("#hero-button");
 const menuButton = document.querySelector("#menu-button");
 
 heroButton.addEventListener("click", showMessage);
-menuButton.addEventListener("click", openMenu);
+menuButton.addEventListener("click", toggleMenu);
 
 function changeHeadLine() {
     const newChangeHeadLine = document.querySelector("#hero-title")
